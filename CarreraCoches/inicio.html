@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<title>Pac Desarrollo</title>
+	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="carrera">
+	<header>
+		
+		<div id="titulo">
+			<h1>LA CARRERA</h1>			
+		</div>
+		
+	</header>
+
+	
+	<h2 id="titulin"></h2>
+
+	<label for="desplegable">Elige el número de participantes: </label>
+	<select id="desplegable" name="desplegable">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+
+
+
+	<div class="pista" id="pista">
+		<div class="principal" id="cont-prin">
+		</div>
+	</div>
+	
+	<div class="botonera">
+		<button id="boton1" type="button">Correr</button>
+		<button id="boton2" type="button">Reiniciar</button>
+	</div>
+
+	<div class="posiciones" id="posiciones">
+		<h2>Resultados</h2>
+		<ol class="resultado" id="resultado"></ol>
+
+	</div>
+
+
+
+
+
+<script type="text/javascript" src="js/pac.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>

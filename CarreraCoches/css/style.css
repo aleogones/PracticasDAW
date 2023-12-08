@@ -1,0 +1,94 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*, *:before, *:after {
+
+}
+
+body {
+	
+	font-size: 1.6rem;
+}
+
+
+
+
+
+.carretera1{
+	/*background: grey;*/
+	background-image: url(../img/Captura.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	height: auto;
+
+}
+
+.carretera {
+	background: url(../img/Captura.jpg) center left repeat-x;
+	height: 100px;
+	border-right: dashed 5px white;
+	box-sizing: border-box;
+}
+
+
+#titulo {
+	
+	background-image: url(../img/traf.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 50px;
+
+
+}
+
+#titulo h1 {
+	text-align: center;
+}
+
+
+img {
+	display: block;
+
+}
+
+
+.caja {
+	
+	position: relative;
+	width: 75px;
+	height: 75px;
+	/*background: blue;*/
+	font-size: 40px;
+	text-align: center;
+	margin-left: 0px;
+
+}
+
+#posiciones {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 4rem;
+	background: gray;
+
+}
+
+#posiciones h2 {
+	text-align: center;
+}
+
+#resultado {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+select {
+	margin-bottom: 1rem;
+}
+
+.botonera {
+	margin-top: 1rem;
+}

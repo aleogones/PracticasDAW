@@ -1,0 +1,98 @@
+
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+	
+}
+
+
+/* Estilo ejercicio 1 */
+.dimensiones {
+	width: 250px;
+	box-shadow: 2px 2px 2px 2px black;
+
+}
+
+table {
+	margin-top: 10px;
+}
+
+table, th, td {
+	border: 3px solid red;
+	border-collapse: collapse;
+}
+
+th {
+	border: none;
+	background-color: pink;
+	font-family: Verdana, Arial;
+}
+
+td {
+	padding-left: 5px;
+	font-family: Impact, Arial;
+}
+
+.col1 {
+	width: 15%;
+	
+}
+
+td.col1{
+	background-color: hotpink;
+}
+
+.col2 {
+	width: 60%;
+}
+
+.col3 {
+	width: 25%;
+}
+
+#reproduciendo {
+	background-color: yellow;
+	color: red;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
+}
+
+/* Estilo ejercicio 2 */
+
+html {
+	font-family: Calibri, Arial;
+	font-weight: bold;
+
+}
+
+legend {
+	font-family: Verdana, Arial;
+	font-weight: bold;
+}
+
+.pagoDimensiones {
+	width: 50px;
+}
+
+.boton {
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+
+	
+}
+
+a.boton {
+	text-decoration: none;
+	font-family: Arial;
+}
+
+.formulario {
+	background-color: skyblue;
+	color: darkblue;
+}

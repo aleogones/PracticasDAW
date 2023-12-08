@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="preload" href="css/normalize.css" as="style">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<link rel="preload" href="css/style.css" as="style">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<title>Ejercicio 2</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>	
+		</header>
+		<div class="formulario">
+			<form action="ejercicio2b.html" method="GET">
+				
+				<fieldset>
+					<legend>Entradas</legend>
+					
+						<label for="numEnt">Número de entradas</label>
+						<select name="numEnt">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<br><br>
+						<label for="cat">Categoría</label>
+						<br>
+						<select name="cat">
+							<option value="general">Pista General</option>
+							<option value="grada">Grada</option>
+							<option value="palco">Palco</option>
+							
+						</select>
+
+				</fieldset>
+
+				<fieldset>
+					<legend>Datos del comprador</legend>
+					
+						<label for="nombre">Nombre: </label><input type="text" name="nombre"><br><br>
+						<label for="apellidos">Apellidos: </label><input type="text" name="apellidos"><br><br>
+						<label for="email">E-Mail: </label><input type="email" name="email"><br><br>
+						<label for="fecNac">Fecha de nacimiento: </label><input type="date" name="fecNac"><br><br>
+					
+				</fieldset>
+
+				<fieldset>
+					<legend>Pago</legend>
+					<label for="formaPago">Selecciona el método de pago: </label><br><br>
+					<p><input type="radio" name="formaPago" value="visa"><img class="pagoDimensiones" src="img/visaLogo.png" alt="VISA"></p>
+					<p><input type="radio" name="formaPago" value="master"><img class="pagoDimensiones" src="img/masterLogo.png" alt="MASTERCARD"></p>
+					<p><input type="radio" name="formaPago" value="paypal"><img class="pagoDimensiones" src="img/paypalLogo.png" alt="PAYPAL"></p>
+					<p><input type="radio" name="formaPago" value="bizum"><img class="pagoDimensiones" src="img/bizumLogo.jpg" alt="BIZUM"></p>
+
+					<p><input type="checkbox" name="terminos" value="acepta">Acepto las condiciones de compra</p>
+
+					<input class="boton" type="submit" name="enviar" value="Proceder al pago">
+				</fieldset>
+			</form>
+		</div>
+
+	</body>
+</html>

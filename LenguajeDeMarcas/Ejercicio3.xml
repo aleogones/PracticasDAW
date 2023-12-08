@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<eurovision>
+	<cancion>
+		<pais>Alemania</pais>
+		<titulos>
+			<original>Rockstars</original>
+			<castellano>Estrellas del rock</castellano>
+		</titulos>
+		<Artista>Malik Harris</Artista>
+		<Idiomas>
+			<idioma>Inglés</idioma>
+		</Idiomas>
+		<Video>D3FN2umFaM8</Video>	
+	</cancion>
+
+	<cancion>
+		<pais>España</pais>
+		<titulo>
+			<original>SloMo</original>
+			<castellano>Cámara lenta</castellano>
+		</titulo>
+		<Artista>Chanel</Artista>
+		<Idiomas>
+			<idioma>Español</idioma>
+			<idioma>Inglés</idioma>
+		</Idiomas>
+		<Video>TO2yGXVQCfo</Video>	
+	</cancion>
+
+	<cancion>
+		<pais>Finlandia</pais>
+		<titulo>
+			<original>Jezebel</original>
+			<castellano>Jezebel</castellano>
+		</titulo>
+		<Artista>The Rasmus</Artista>
+		<Idiomas>
+			<idioma>Inglés</idioma>
+		</Idiomas>
+		<Video>XtMfCf3vFbc</Video>	
+	</cancion>
+
+
+	<cancion>
+		<pais>Italia</pais>
+		<titulo>
+			<original>Brividi</original>
+			<castellano>Escalofríos</castellano>
+		</titulo>
+		<Artista>Mahmood &amp; Blanco</Artista>
+		<Idiomas>
+			<idioma>Inglés</idioma>
+		</Idiomas>
+		<Video>4MgMhzfUmiA</Video>	
+	</cancion>
+
+	<cancion>
+		<pais>Ucrania</pais>
+		<titulo>
+			<original>Stefania</original>
+			<castellano>Estefanía</castellano>
+		</titulo>
+		<Artista>Kalush Orchstra</Artista>
+		<Idiomas>
+			<idioma>Ucraniano</idioma>
+		</Idiomas>
+		<Video>UiEGVYOruLk</Video>	
+	</cancion>
+
+</eurovision>

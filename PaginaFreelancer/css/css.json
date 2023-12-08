@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@media(min-width: $1px){
+	${2}
+}
+]]></content>
+	<tabTrigger>mq</tabTrigger>
+</snippet>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+	<title>LA CARRERA</title>
+	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="carrera">
+	<header>
+		
+		<div id="titulo">
+			<h1>LA CARRERA</h1>			
+		</div>
+		
+	</header>
+
+	<!--Usamos el h2 para incluir el ancho de la pantalla en la que estemos-->
+	<h2 id="titulin"></h2>
+
+	<!--Creamos el desplegable con el numero de opciones indicadas-->
+	<label for="desplegable">Elige el número de participantes: </label>
+	<select id="desplegable" name="desplegable">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+
+
+	<!--Creamos el contenedor de la carretera-->
+	<div class="pista" id="pista">
+		<!--Creamos el contenedor donde vamos a incluir los coches que se seleccionen-->
+		<div class="principal" id="cont-prin">
+		</div>
+	</div>
+	
+	<!--Creamos el contendor de la botonera-->
+	<div class="botonera">
+		<button id="boton1" type="button">Correr</button>
+		<button id="boton2" type="button">Reiniciar</button>
+	</div>
+
+	<!--Creamos la zona de resultados-->
+	<div class="posiciones" id="posiciones">
+		<h2>Resultados</h2>
+		<!--Generamos una lista ordenada-->
+		<ol class="resultado" id="resultado"></ol>
+	</div>
+
+
+
+
+
+<script type="text/javascript" src="js/pac.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
